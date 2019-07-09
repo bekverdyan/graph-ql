@@ -1,0 +1,29 @@
+{
+  "name": "graph-ql",
+  "version": "0.0.1",
+  "description": "The backend server for handling authentication",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc",
+    "dev": "ts-node-dev --respawn --transpileOnly ./src/app/app.ts",
+    "prod": "tsc && node ./build/app.js"
+  },
+  "author": "Aram Bekverdyan",
+  "license": "MIT",
+  "dependencies": {
+    "@types/graphql": "^14.2.2",
+    "@types/serve-static": "^1.13.2",
+    "graphql": "^14.4.2",
+    "@types/express": "^4.17.0",
+    "express": "^4.17.1",
+    "serve": "^11.0.2",
+    "ts-node-dev": "^1.0.0-pre.39",
+    "typescript": "^3.5.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "graph-ql"
+  }
+}

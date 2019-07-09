@@ -12,12 +12,10 @@
   "author": "Aram Bekverdyan",
   "license": "MIT",
   "dependencies": {
-    "@types/graphql": "^14.2.2",
-    "@types/serve-static": "^1.13.2",
-    "graphql": "^14.4.2",
     "@types/express": "^4.17.0",
+    "@types/graphql": "^14.2.2",
     "express": "^4.17.1",
-    "serve": "^11.0.2",
+    "graphql": "^14.4.2",
     "ts-node-dev": "^1.0.0-pre.39",
     "typescript": "^3.5.1"
   },
